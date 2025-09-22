@@ -79,11 +79,13 @@ body{
   border-radius: 8px 8px 0 0;
   margin-bottom: 0.8rem;
   background: #ffffff;  /* background colour */
+  flex-shrink: 0;       /* prevent squishing */
 }
 
 /* Project card image styling */
 .project-image {
+  background-color: #ffffff; /* white fill behind transparent images */
   max-height: 100%;
   max-width: 100%;
-  object-fit: contain;   /* ensures the image fits inside without cropping */
+  object-fit: contain;
 }
