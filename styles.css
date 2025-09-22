@@ -78,7 +78,7 @@ body{
   justify-content: center; /* horizontal centering */
   border-radius: 8px 8px 0 0;
   margin-bottom: 0.8rem;
-  background: #f0f0f0;  /* optional placeholder color */
+  background: #000000;  /* background colour */
 }
 
 /* Project card image styling */
