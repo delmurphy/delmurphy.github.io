@@ -67,3 +67,13 @@ body{
   .hero .lead{max-width:40ch;margin:0 auto}
   .container{padding:1rem}
 }
+
+/* Project card image styling */
+.project-image {
+  width: 100%;            /* fills the card width */
+  max-height: 180px;      /* limits the height */
+  object-fit: cover;      /* crops/zooms to fill the space without distortion */
+  border-radius: 8px 8px 0 0; /* rounded top corners to match card */
+  display: block;
+  margin-bottom: 0.8rem;
+}
