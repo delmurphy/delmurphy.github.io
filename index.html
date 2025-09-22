@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio — projects, about and contact." />
+  <link rel="icon" href="favicon.ico" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="#">Your Name</a>
+
+      <nav id="nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-pressed="false" class="icon-btn" title="Toggle theme">🌓</button>
+      </nav>
+
+      <button id="nav-toggle" class="icon-btn" aria-expanded="false" aria-controls="nav" title="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi — I'm <strong>Your Name</strong></h1>
+        <p class="lead">Developer • Designer • Maker — I build web projects and small tools.</p>
+        <p><a class="cta" href="#projects">See my work</a></p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>Short description of what the project does and the tech used.</p>
+            <p class="meta">
+              <a href="https://github.com/YOUR_USERNAME/project-one" target="_blank" rel="noopener">GitHub</a>
+              <!-- <span> · </span><a href="https://live-demo.example.com">Live demo</a> -->
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>Short description — what problem it solves and interesting detail.</p>
+            <p class="meta"><a href="#">GitHub</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>Short description with a screenshot or key feature highlight.</p>
+            <p class="meta"><a href="#">GitHub</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2>About</h2>
+        <p>Short bio — 1–3 sentences about what you do, the languages you like, and what you're looking for.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Reach me at <a href="mailto:you@example.com">you@example.com</a> or <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — <small>Built with ❤️ and GitHub Pages</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
