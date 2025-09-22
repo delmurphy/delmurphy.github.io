@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Derek Murphy — Portfolio</title>
+  <meta name="description" content="Portfolio — projects, about and contact." />
+  <link rel="icon" href="favicon.ico" />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="#">Derek Murphy</a>
+
+      <nav id="nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#academic">Academic work</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-pressed="false" class="icon-btn" title="Toggle theme">🌓</button>
+      </nav>
+
+      <button id="nav-toggle" class="icon-btn" aria-expanded="false" aria-controls="nav" title="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I'm <strong>Derek</strong></h1>
+        <p class="lead">Behavioural Ecologist turned Data Scientist<br>
+          <br>Analytics • Modelling • Visualisation • Data wrangler and modeller
+          <br>Turning complex datasets into insights<br>
+         <br><strong>Currently open to opportunities — let’s connect!</strong>
+        </p>
+        <p><a class="cta" href="#projects">See my work</a></p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Dublin Canvas Interactive Map</h3>
+            <p>An interactive map showing the locations of public artworks around Dublin with images and links for more information. Created with R, Shiny and Leaflet.</p>
+            <p class="meta">
+              <a href="https://github.com/delmurphy/DublinCanvas" target="_blank" rel="noopener">GitHub</a>
+              <span> · </span><a href="https://019956dc-b732-0ca4-625c-b83fddb002a5.share.connect.posit.cloud/">Live demo</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Monkey ID game</h3>
+            <p>A monkey face-matching game made for public engagement events. Test your monkey ID skills! Created with R, Shiny</p>
+            <p class="meta"><a href="https://github.com/delmurphy/monkey-id-game" target="_blank" rel="noopener">GitHub</a>
+            <span> · </span><a href="https://01996224-aa23-1529-3080-55154f4b3f76.share.connect.posit.cloud/">Live demo</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Exploring R0 and infection rates</h3>
+            <p>An interactive data visualisation to explore how changing paramters can impact infection and recovery rates.</p>
+            <p class="meta"><a href="https://github.com/delmurphy/infection-rate-app" target="_blank" rel="noopener">GitHub</a>
+            <span> · </span><a href="https://vervetunderground.shinyapps.io/Infection_app/">Live demo</a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="academic" class="section alt">
+      <div class="container">
+        <h2>Academic Work</h2>
+        <p>
+          I hold a PhD in behavioural ecology and have published research on topics such as machine learning and computer vision in wildlife biology, social network analysis, and behavioural experiments, as well as contributing analytical expertise to papers on COVID-19 hospital outcomes. 
+          <br>You can explore my publications and research contributions here:
+        </p>
+        <ul>
+          <li><a href="https://scholar.google.com/citations?hl=en&user=Ch4wAdMAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0001-8657-482X" target="_blank" rel="noopener">ORCID</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2>About</h2>
+        <p>I have a PhD in behavioural ecology, where I specialised in analysing complex datasets to uncover patterns in behaviour. My work involves computer vision, machine learning, statistical modelling, data wrangling, and data visualisation. I’m now transitioning from academia into data science, where I aim to apply my analytical and problem-solving skills to real-world challenges.<br>
+        <br> R • Tidyverse • Shiny • Python • pandas • scikit-learn • PyTorch
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Reach me by <a href="mailto:dmurphy.datasci@gmail.com">email</a> or <a href="https://www.linkedin.com/in/dermurphy/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Derek Murphy — <small>Built with ❤️ and GitHub Pages</small></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
