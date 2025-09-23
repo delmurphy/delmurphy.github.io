@@ -4,7 +4,8 @@
   --text: #0f1724;
   --logotext: #e6eef8;
   --muted: #6b7280;
-  --accent: #0b84ff;
+  /* --accent: #0b84ff; */
+  --accent: #006400;
   --radius: 12px;
   --container: 1100px;
   --glass: rgba(255,255,255,0.6);
@@ -15,7 +16,8 @@
   --text: #e6eef8;
   --logotext: #e6eef8;
   --muted: #9aa6b2;
-  --accent: #6fb8ff;
+  /* --accent: #6fb8ff; */
+  --accent: #3c963c;
   --glass: rgba(10,14,20,0.6);
 }
 
