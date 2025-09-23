@@ -66,18 +66,18 @@ body{
   /* z-index: 0;
 } */
 /* overlay gradient */
-.hero::before {
+/* .hero::before {
   content: "";
   position: absolute;
   inset: 0; /* stretch to fill hero */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.6) 0%,   /* dark on left */
-    rgba(0, 0, 0, 0.3) 40%,  /* fade in middle */
-    rgba(0, 0, 0, 0) 100%    /* transparent on right */
-  );
+    /* rgba(0, 0, 0, 0.3) 40%,  /* fade in middle */
+    /* rgba(0, 0, 0, 0) 100%    /* transparent on right */
+  /* );
   z-index: 0;
-}
+} */
 .hero .container {
   position: relative;
   z-index: 1; /* keep text above overlay */
