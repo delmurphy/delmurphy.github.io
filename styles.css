@@ -74,7 +74,7 @@ body{
   inset: 0; /* stretch to fill hero */
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.7) 0%,   /* dark on left */
+    rgba(0, 0, 0, 0.8) 0%,   /* dark on left */
     rgba(0, 0, 0, 0.3) 40%,  /* fade in middle */
     rgba(0, 0, 0, 0) 100%    /* transparent on right */
   );
