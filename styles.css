@@ -44,9 +44,18 @@ body{
 .hero{
   padding: 6rem 0; /* give more breathing space */
   text-align: left;
-  background: url("../images/baboons2.jpg") center 17%/cover no-repeat; /*start the image at 20% from the top */
+  background: url("../images/baboons1.jpg") center 17%/cover no-repeat; /*start the image at 20% from the top */
   color: #ffffff; /* ensure text is readable on the banner */
   min-height: 60vh; /* at least 60% of viewport height */
+}
+/* style links in hero section*/
+.hero a {
+  color: #ffffff;         /* make links white */
+  text-decoration: underline; /* optional: keep underline for clarity */
+  font-weight: 600;       /* optional: make it stand out */
+}
+.hero a:hover {
+  color: var(--accent);   /* optional: change to your accent color on hover */
 }
 /* add semi-transparent overlay to banner*/
 /* .hero::before {
