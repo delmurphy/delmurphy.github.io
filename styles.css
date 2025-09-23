@@ -45,7 +45,7 @@ body{
   padding: 6rem 0; /* give more breathing space */
   text-align: left;
   background: url("../images/baboons1.jpg") center/cover no-repeat;
-  /* color: #ffffff; /* ensure text is readable on the banner */ */
+  color: #ffffff; /* ensure text is readable on the banner */
   min-height: 60vh; /* at least 60% of viewport height */
 }
 /* add semi-transparent overlay to banner*/
