@@ -40,7 +40,13 @@ body{
 #nav-toggle{display:none}
 
 /* Hero */
-.hero{padding:4rem 0;text-align:left}
+/* .hero{padding:4rem 0;text-align:left} */
+.hero{
+  padding: 6rem 0; /* give more breathing space */
+  text-align: left;
+  background: url("images/baboons1.jpg") center/cover no-repeat;
+  color: #ffffff; /* ensure text is readable on the banner */
+}
 .hero .lead{color:var(--muted);max-width:60ch}
 .cta{display:inline-block;margin-top:0.8rem;background:var(--accent);color:white;padding:0.6rem 1rem;border-radius:8px;text-decoration:none;font-weight:600}
 
