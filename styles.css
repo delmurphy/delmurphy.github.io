@@ -44,7 +44,7 @@ body{
 .hero{
   padding: 6rem 0; /* give more breathing space */
   text-align: left;
-  background: url("images/baboons1.jpg") center/cover no-repeat;
+  background: url("../images/baboons1.jpg") center/cover no-repeat;
   color: #ffffff; /* ensure text is readable on the banner */
 }
 .hero .lead{color:var(--muted);max-width:60ch}
