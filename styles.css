@@ -44,7 +44,7 @@ body{
 .hero{
   padding: 6rem 0; /* give more breathing space */
   text-align: left;
-  background: url("../images/baboons1.jpg") center 17%/cover no-repeat; /*start the image at 20% from the top */
+  background: url("../images/baboons2.jpg") center 17%/cover no-repeat; /*start the image at 20% from the top */
   color: #ffffff; /* ensure text is readable on the banner */
   min-height: 60vh; /* at least 60% of viewport height */
 }
@@ -73,7 +73,7 @@ body{
   position: relative;
   z-index: 1; /* keep text above overlay */
 }
-.hero .lead{color:#ffffff;max-width:60ch}
+.hero .lead{color:(--muted);max-width:60ch}
 .cta{display:inline-block;margin-top:0.8rem;background:var(--accent);color:white;padding:0.6rem 1rem;border-radius:8px;text-decoration:none;font-weight:600}
 
 /* Sections */
