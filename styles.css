@@ -44,7 +44,7 @@ body{
 .hero{
   padding: 6rem 0; /* give more breathing space */
   text-align: left;
-  background: url("../images/baboons1.jpg") center 20%/cover no-repeat; /*start the image at 20% from the top */
+  background: url("../images/baboons1.jpg") center 10%/cover no-repeat; /*start the image at 20% from the top */
   color: #ffffff; /* ensure text is readable on the banner */
   min-height: 60vh; /* at least 60% of viewport height */
 }
