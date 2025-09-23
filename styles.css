@@ -2,6 +2,7 @@
   --bg: #f5f7fb;
   --card: #ffffff;
   --text: #0f1724;
+  --logotext: #e6eef8;
   --muted: #6b7280;
   --accent: #0b84ff;
   --radius: 12px;
@@ -12,6 +13,7 @@
   --bg: #0b1220;
   --card: #0f1724;
   --text: #e6eef8;
+  --logotext: #e6eef8;
   --muted: #9aa6b2;
   --accent: #6fb8ff;
   --glass: rgba(10,14,20,0.6);
@@ -33,7 +35,7 @@ body{
 
 .header-row{display:flex;align-items:center;gap:1rem;justify-content:space-between}
 .site-header{backdrop-filter: blur(6px);position:sticky;top:0;z-index:20;padding:0.6rem 0}
-.logo{font-weight:700;color:var(--text);text-decoration:none}
+.logo{font-weight:700;color:var(--logotext);text-decoration:none}
 .site-nav{display:flex;gap:1rem;align-items:center}
 .site-nav a{color:var(--text);text-decoration:none;font-weight:500}
 .icon-btn{background:transparent;border:0;font-size:1.1rem;cursor:pointer}
@@ -66,18 +68,18 @@ body{
   /* z-index: 0;
 } */
 /* overlay gradient */
-/* .hero::before {
+.hero::before {
   content: "";
   position: absolute;
   inset: 0; /* stretch to fill hero */
-  /* background: linear-gradient(
+  background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.6) 0%,   /* dark on left */
-    /* rgba(0, 0, 0, 0.3) 40%,  /* fade in middle */
-    /* rgba(0, 0, 0, 0) 100%    /* transparent on right */
-  /* );
+    rgba(0, 0, 0, 0.3) 40%,  /* fade in middle */
+    rgba(0, 0, 0, 0) 100%    /* transparent on right */
+  );
   z-index: 0;
-} */
+} 
 .hero .container {
   position: relative;
   z-index: 1; /* keep text above overlay */
