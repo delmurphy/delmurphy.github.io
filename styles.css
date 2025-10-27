@@ -52,6 +52,7 @@ body{
   background: url("../images/baboons1.jpg") center 20%/cover no-repeat; /*start the image at 20% from the top */
   color: #ffffff; /* ensure text is readable on the banner */
   min-height: 60vh; /* at least 60% of viewport height */
+  overflow: hidden; /* ensures overlay does not spill out */
 }
 /* style links in hero section*/
 .hero a {
@@ -74,6 +75,10 @@ body{
 .hero::before {
   content: "";
   position: absolute;
+  top: -100vh;       /* extend overlay upward */
+  left: 0;
+  right: 0;
+  bottom: 0;         /* stop at bottom of hero */
   inset: 0; /* stretch to fill hero */
   background: linear-gradient(
     to right,
