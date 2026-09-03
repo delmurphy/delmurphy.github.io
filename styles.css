@@ -140,3 +140,14 @@ body{
   max-width: 100%;
   object-fit: contain;
 }
+
+/* Formatting to allow some images to use natural aspect ratio*/
+.project-image-container.project-image-natural {
+  height: auto;
+}
+
+.project-image-container.project-image-natural .project-image {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
