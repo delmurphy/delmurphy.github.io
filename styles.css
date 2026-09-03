@@ -144,6 +144,7 @@ body{
 /* Formatting to allow some images to use natural aspect ratio*/
 .project-image-container.project-image-natural {
   height: auto;
+  padding: 0.25rem 0;
 }
 
 .project-image-container.project-image-natural .project-image {
