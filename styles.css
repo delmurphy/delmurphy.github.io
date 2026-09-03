@@ -100,7 +100,11 @@ body{
 .section.alt{background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.02) 100%)}
 
 /* Grid + cards */
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}
+/*.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}*/ /* use this for a grid of 4 cards per row (instead of below line) */
+.grid{display: grid;grid-template-columns: repeat(6, 1fr);gap: 1.25rem;} /* added for formatting cards on two rows: 3 on top 2 underneath centered */
+.card {grid-column: span 2;} /* added for formatting cards on two rows: 3 on top 2 underneath centered */
+/* Centre the final two cards when there are 5 projects */
+.card:nth-last-child(2) {grid-column: 2 / span 2;} /* added for formatting cards on two rows: 3 on top 2 underneath centered */
 .card{background:var(--card);padding:1.25rem;border-radius:var(--radius);box-shadow:0 6px 20px rgba(2,6,23,0.06);transition:transform .18s ease,box-shadow .18s ease}
 .card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(2,6,23,0.12)}
 .card h3{margin:0 0 .5rem}
@@ -117,6 +121,15 @@ body{
   .hero{text-align:center}
   .hero .lead{max-width:40ch;margin:0 auto}
   .container{padding:1rem}
+  .grid {grid-template-columns: repeat(2, 1fr);} /* added for formatting cards on two rows: 3 on top 2 underneath centered */
+  .card, .card:nth-last-child(2) {grid-column: auto;} /* added for formatting cards on two rows: 3 on top 2 underneath centered */
+}
+
+/* media query for phones */
+@media (max-width:560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Project card image styling */
