@@ -43,7 +43,8 @@
     <section id="about" class="section alt">
       <div class="container">
         <h2>About</h2>
-        <p>I am an applied data scientist and quantitative behavioural ecologist working at the intersection of machine learning, biodiversity, and wildlife research. My work focuses on developing data-driven approaches for understanding complex ecological and behavioural systems, particularly using computer vision, statistical modelling, and large-scale observational data.<br>
+        <!--<p>I am an applied data scientist and quantitative behavioural ecologist working at the intersection of machine learning, biodiversity, and wildlife research. My work focuses on developing data-driven approaches for understanding complex ecological and behavioural systems, particularly using computer vision, statistical modelling, and large-scale observational data.<br> -->
+        <p>I am an applied data scientist and quantitative researcher with a background spanning animal behaviour and ecology, health data and environmental research. I use statistical modelling, machine learning and reproducible data workflows to work with complex real-world data, with particular interests in animal welfare, conservation, health and environmental applications.<br>
         <br>My background spans behavioural ecology, conservation science, public health analytics, and scientific communication. Over the course of my PhD and postdoctoral research, I have worked on projects involving wildlife social networks, camera trap monitoring, acoustic classification, simulation modelling, and health data analysis across research institutes in Europe, Africa, and Asia. Alongside field-based research experience, I have developed strong technical expertise in R, Python, machine learning workflows, and reproducible data analysis.</a><br>
         <br>I am particularly interested in applying data science and AI to complex real-world problems in health, conservation and environmental science, where rigorous quantitative methods can support better research and decision-making.  
         <br>I work primarily in R and Python, using tools and ecosystems such as Tidyverse, Shiny, pandas, scikit-learn, and PyTorch to explore, model, and communicate data insights.<br>
@@ -55,21 +56,10 @@
     <section id="projects" class="section">
       <div class="container">
         <h2>Projects</h2>
-        <p>Just a few of the personal projects I have worked on recently.
-        <br>Try out the live demos or see the code on Github!</p>
+        <p>A selection of recent applied data science, machine learning and data visualisation projects.
+        <br>Try out the live demos or see the code on GitHub!</p>
         <div class="grid">
 
-          <article class="card">
-            <h3>Phoenix Park: Mapping vegetation greenness with Sentinel-2</h3>
-            <div class="project-image-container project-image-natural">
-              <img src="images/maps.png" alt="Phoenix Park NDVI maps from 2017 to 2026" class="project-image">
-            </div>
-            <p>A geospatial analysis of July vegetation greenness in Dublin's Phoenix Park from 2017 to 2026 using Sentinel-2 satellite imagery and NDVI. Built in Python with GeoPandas, xarray, rioxarray, odc-stac and Matplotlib.</p>
-            <p class="meta">
-              <a href="https://github.com/delmurphy/phoenix-park-ndvi" target="_blank" rel="noopener">GitHub</a>
-            </p>
-          </article>
-          
           <article class="card">
             <h3>WildSignal: Predicting impacts of climate change on biodiversity</h3>
             <div class="project-image-container project-image-natural">
@@ -79,6 +69,51 @@
             <p class="meta">
               <a href="https://github.com/delmurphy/wildsignal" target="_blank" rel="noopener">GitHub</a>
               <span> · </span><a href="https://wildsignal.streamlit.app/" target="_blank" rel="noopener">Live demo</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Cloud ETL Pipeline: Automated Data Engineering</h3>
+            <div class="project-image-container project-image-natural">
+              <img src="images/RAGbot.png" alt="Architecture of a cloud ETL pipeline integrating web-scraped and API data into Google Cloud SQL using scheduled Cloud Functions" class="project-image">
+            </div>
+            <p>WBS course project developing an automated ETL pipeline on Google Cloud Platform, integrating web-scraped and API data with transformation, Cloud SQL storage and scheduled Cloud Functions.</p>
+            <p class="meta">
+              <a href="https://github.com/delmurphy/WBS-cloud-data-pipeline" target="_blank" rel="noopener">GitHub</a>
+              <span> · </span><a href="https://medium.com/@del.murphy/from-field-ecologist-to-cloud-data-engineer-in-two-weeks-78fd92999c8b" target="_blank" rel="noopener">Article</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>RAG Document Assistant: Semantic Retrieval</h3>
+            <div class="project-image-container project-image-natural">
+              <img src="images/RAGbot.png" alt="Screenshot of a vegetarian recipe RAG chatbot answering a cooking question through a Gradio web interface" class="project-image">
+            </div>
+            <p>WBS course project building a RAG chatbot with Python, LlamaIndex, HuggingFace embeddings and LLMs, using PDF ingestion, semantic retrieval and a Gradio interface to answer vegetarian cooking questions.</p>
+            <p class="meta">
+              <a href="https://github.com/delmurphy/WBS-RAG-chatbot-veg-cooking" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Monkey ID game</h3>
+            <div class="project-image-container project-image-natural">
+              <img src="images/monkeyidgame.jpg" alt="Screenshot of monkey ID game" class="project-image">
+            </div>
+            <p>A monkey face-matching game made for public engagement events. Test your monkey ID skills! Created with R, Shiny</p>
+            <p class="meta"><a href="https://github.com/delmurphy/monkey-id-game" target="_blank" rel="noopener">GitHub</a>
+            <span> · </span><a href="https://01996224-aa23-1529-3080-55154f4b3f76.share.connect.posit.cloud/" target="_blank" rel="noopener">Live demo</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Phoenix Park: Mapping vegetation greenness with Sentinel-2</h3>
+            <div class="project-image-container project-image-natural">
+              <img src="images/maps.png" alt="Phoenix Park NDVI maps from 2017 to 2026" class="project-image">
+            </div>
+            <p>A geospatial analysis of July vegetation greenness in Dublin's Phoenix Park from 2017 to 2026 using Sentinel-2 satellite imagery and NDVI. Built in Python with GeoPandas, xarray, rioxarray, odc-stac and Matplotlib.</p>
+            <p class="meta">
+              <a href="https://github.com/delmurphy/phoenix-park-ndvi" target="_blank" rel="noopener">GitHub</a>
             </p>
           </article>
           
@@ -95,22 +130,11 @@
           </article>
 
           <article class="card">
-            <h3>Monkey ID game</h3>
-            <div class="project-image-container project-image-natural">
-              <img src="images/monkeyidgame.jpg" alt="Screenshot of monkey ID game" class="project-image">
-            </div>
-            <p>A monkey face-matching game made for public engagement events. Test your monkey ID skills! Created with R, Shiny</p>
-            <p class="meta"><a href="https://github.com/delmurphy/monkey-id-game" target="_blank" rel="noopener">GitHub</a>
-            <span> · </span><a href="https://01996224-aa23-1529-3080-55154f4b3f76.share.connect.posit.cloud/" target="_blank" rel="noopener">Live demo</a>
-            </p>
-          </article>
-
-          <article class="card">
             <h3>Exploring R0 and infection rates</h3>
             <div class="project-image-container project-image-natural">
               <img src="images/infectionrates.s.jpg" alt="Screenshot of infection rates data visualisation" class="project-image">
             </div>
-            <p>An interactive data visualisation to explore how changing paramters can impact infection and recovery rates.</p>
+            <p>An interactive data visualisation to explore how changing parameters can impact infection and recovery rates.</p>
             <p class="meta"><a href="https://github.com/delmurphy/infection-rate-app" target="_blank" rel="noopener">GitHub</a>
             <span> · </span><a href="https://vervetunderground.shinyapps.io/Infection_app/" target="_blank" rel="noopener">Live demo</a>
             </p>
@@ -160,6 +184,32 @@
             <i>Nature Methods, 2025</i>
             <p>A guide for animal behaviour researchers on how they can incorporate computer vision into their research, and for computer vision researchers on what kinds of questions they can address in animal behaviour research.</p>
             <p class="meta"><a href="https://www.nature.com/articles/s41592-025-02653-y" target="_blank" rel="noopener">Read the paper</a>
+            </p>
+          </article>
+        </div>
+
+        <article class="card">
+            <h3>Physical activity and temperature changes of Asian elephants (<i>Elephas maximus</i>) participating in eco-tourism activities and elephant polo
+            <br><br><br></h3>
+            <div class="project-image-container">
+              <img src="images/elephant_thermo.png" alt="Thermograph showing surface body temperature variation of an Asian elephant" class="project-image">
+            </div>
+            <i>PLOS One, 2024</i>
+            <p>How do tourism-related activities affect skin temperature and thermoregulation in rescued Asian elephants?</p>
+            <p class="meta"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300373" target="_blank" rel="noopener">Read the paper</a>
+            </p>
+          </article>
+        </div>
+
+        <article class="card">
+            <h3>Age differences in the temporal stability of a male African elephant (<i>Loxodonta africana</i>) social network
+            <br><br><br></h3>
+            <div class="project-image-container">
+              <img src="images/elenet.jpg" alt="" class="project-image">
+            </div>
+            <i>Behavioral Ecology, 2024</i>
+            <p>How does age influence social stability in male African elephants, and what role might older males play in maintaining group cohesion?</p>
+            <p class="meta"><a href="https://academic.oup.com/beheco/article-abstract/31/1/21/5574731" target="_blank" rel="noopener">Read the paper</a>
             </p>
           </article>
         </div>
